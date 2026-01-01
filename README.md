@@ -41,10 +41,10 @@ YouTubeチャンネルのRSSフィードやAPIを定期的に監視し、新着�
 
 ### 1. 依存ライブラリのインストール
 
-このプロジェクトでは `requirements.txt` が提供されていません。以下のコマンドを参考に、必要なライブラリをインストールしてください。
+以下のコマンドを実行して、必要なライブラリをインストールします。
 
 ```bash
-pip install feedparser tweepy mysql-connector-python google-api-python-client python-dotenv schedule requests requests_oauthlib Pillow
+pip install -r requirements.txt
 ```
 
 ### 2. データベースの準備
